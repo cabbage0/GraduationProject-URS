@@ -1,0 +1,41 @@
+.paginator {
+	font: 14.8px normal Arial, Helvetica, sans-serif;
+	color: #666666;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	line-height: 150%;
+	text-align: center;
+}
+
+.paginator a,.thispage,.break {
+	padding: 2px 4px;
+}
+
+.paginator .prev {
+	margin-right: 20px;
+}
+
+.paginator .next {
+	margin-left: 20px;
+}
+
+.paginator .count {
+	margin-left: 20px;
+	font-size: 11px;
+}
+
+
+.caidan {
+	width: 1004px;
+	margin: auto;
+	height: 43px;
+	background: url(../imgs/caidan.jpg);
+}
+
+/**************Ê÷µÄÑùÊ½***************/
+.tvTree
+{
+    overflow-y:auto;
+    height:400px;
+    border:1px solid #66b8b2;
+ }

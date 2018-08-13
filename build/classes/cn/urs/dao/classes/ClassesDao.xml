@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.urs.dao.classes.ClassesDao">
+	
+	<insert id="insertClasses">
+		insert into
+			classes(classid,classtype,majorid)
+		values
+			(#{classes.classid},#{classes.classtype},#{classes.majorid})
+	</insert>
+	
+	<update id="updateClasses">
+		update
+			classes
+		set
+			classtype=#{classes.classtype},majorid=#{classes.majorid}
+		where
+			classid = #{classes.classid}
+	</update>
+
+	<delete id="deleteClasses">
+		delete from
+			classes
+		where
+			classid=#{classid}
+	</delete>
+	
+	<select id="classTotalRecord" resultType="int">
+		select
+			count(*)
+		from
+			classes
+		<where>
+			<if test="pageClasses.KeyWord != null and pageClasses.keyWord != ''">
+				classid = #{classid}
+			</if>
+		</where>
+	</select>
+	
+	<select id="queryAllClasses" resultType="Classes">
+		select
+			id,classid,classtype,majorid
+		from
+			classes
+		<where>
+			<if test="pageClasses.keyWord !=null and pageClasses.keyWord !=''">
+				classid=#{pageClasses.keyWord}
+			</if>
+		</where>  
+		limit 
+			#{pageClasses.page},#{pageClasses.rows}
+	</select>
+	
+	<select id="queryClasses" resultType="Classes">
+		select
+			*
+		from
+			classes
+		where
+			classid = #{classid}
+	</select>
+</mapper>

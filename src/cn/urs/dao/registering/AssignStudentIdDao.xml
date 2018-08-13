@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.urs.dao.registering.AssignStudentIdDao">
+
+
+	<select id="studentRecordByClass" resultType="int">
+		select
+			count(*)
+		from
+			student
+		<where>
+			classid = #{classid}
+		</where>
+	</select>
+	
+	<select id="queryStudentByClass" resultType="Student">
+		select
+			id,studentid,candidatenumber,studentname,gender,instituteid,majorid,scores,classid,idcard,birthday,national,
+			political,studenttype
+		from
+			student
+		<where>
+			classid=#{classid}
+		</where>
+		order by
+			scores
+	</select>
+	
+	<select id="queryClasses" resultType="Classes">
+		select
+			classid
+		from
+			classes
+		<where>
+			majorid=#{majorid}
+		</where>
+	</select>
+	
+	<select id="quertMajor" resultType="Major">
+		select
+			majorid,majorname
+		from
+			major
+	</select>
+	
+	<update id="assignStudentId">
+		update
+			student
+		set
+			studentid = #{studentid}
+		where
+			candidatenumber = #{student.candidatenumber}
+	</update>
+	
+</mapper>
+
+

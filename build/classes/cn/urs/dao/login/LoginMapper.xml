@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.urs.dao.login.LoginMapper">
+	
+	<select id="getAdminById" resultType="Administrator">
+		select * from administrator
+		<where>
+			<if test="userid!=null">
+				userid=#{userid}
+			</if>
+		</where>
+	</select>
+
+	<select id="getStudentById" resultType="Student">
+		select * from student
+		<where>
+			<if test="null!=candidatenumber">
+				candidatenumber=#{candidatenumber}
+			</if>		
+		</where>
+	</select>
+	
+</mapper>

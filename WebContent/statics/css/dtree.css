@@ -1,0 +1,60 @@
+
+
+.dtree {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000;
+	white-space: nowrap;
+}
+
+.tree
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	color: #000;
+	white-space: nowrap;
+}
+
+.menu_1_1{
+	width:195px;
+	height:25px;
+	font-size:14px;
+	font-weight:bold;
+	padding-top:5px;
+	padding-left:10px;
+	background:url(../imgs/caidan.jpg);
+}
+
+.dtree img {
+	border: 0px;
+	vertical-align: middle;
+}
+.dtree a {
+	color: #333;
+	text-decoration: none;
+}
+
+.dtree a.node, .dtree a.nodeSel {
+	white-space: nowrap;
+	padding: 1px 2px 1px 2px;
+}
+
+.dtree a.node:hover, .dtree a.nodeSel:hover {
+	color: #333;
+	text-decoration: underline;
+}
+
+.dtree a.nodeSel {
+	background-color: #c0d2ec;
+	height: 12px;
+	vertical-align:baseline;
+}
+
+.dtree .clip {
+	overflow: hidden;
+}
+.dtree .cx {
+	padding:0px; 
+	margin:0px;
+
+}

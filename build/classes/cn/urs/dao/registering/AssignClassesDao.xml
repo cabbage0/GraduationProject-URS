@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.urs.dao.registering.AssignClassesDao">
+
+
+	<select id="classesRecordByMajor" resultType="int">
+		select
+			count(*)
+		from
+			classes
+		<where>
+			majorid = #{majorid}
+		</where>
+	</select>
+	
+	<select id="queryBoyStudentByMajor" resultType="Student">
+		select
+			id,candidatenumber,studentname,gender,instituteid,majorid,scores,classid,idcard,birthday,national,
+			political,studenttype
+		from
+			student
+		<where>
+			majorid=#{majorid}
+		</where>
+		and
+			gender=1
+		  
+	</select>
+	
+	<select id="queryGirlStudentByMajor" resultType="Student">
+		select
+			id,candidatenumber,studentname,gender,instituteid,majorid,scores,classid,idcard,birthday,national,
+			political,studenttype
+		from
+			student
+		<where>
+			majorid=#{majorid}
+		</where>
+		and
+			gender=0
+		 
+	</select>
+	
+	<update id="assignClass">
+		update
+			student
+		set
+			classid = #{classid}
+		where
+			candidatenumber = #{student.candidatenumber}
+	</update>
+
+	<select id="queryClassIdByMajor" resultType="Classes">
+		select
+			classid
+		from
+			classes
+		where
+			majorid = #{majorid}
+	
+	</select>
+
+</mapper>
+
+

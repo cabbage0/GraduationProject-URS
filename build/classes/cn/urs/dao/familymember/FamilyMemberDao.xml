@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.urs.dao.familymember.FamilyMemberDao">
+	<insert id="insertFamilyMember">
+		insert into
+			familymember
+			(studentid,membername,memberage,relationship,political,company,duty,phonenumber)
+		values
+			(#{studentid},#{familyMember.membername},#{familyMember.memberage},#{familyMember.relationship},
+			#{familyMember.political},#{familyMember.company},#{familyMember.duty},#{familyMember.phonenumber})
+	</insert>
+	
+	<select id="queryFamilyMember" resultType="FamilyMember">
+		select
+			*
+		from
+			familymember
+		where
+			studentid=#{studentid}
+	</select>
+</mapper>

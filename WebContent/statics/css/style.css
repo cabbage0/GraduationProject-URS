@@ -1,0 +1,1140 @@
+#coding =utf8 * {
+    overflow: auto;
+    margin: 0px;
+}
+
+a {
+    blr: expression(this.onFocus =this.blur () );
+	outline: none;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #FC0;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+.titleEvent {
+	width: 722px;
+	font-size: 18px;
+	padding-left: 30px;
+	font-weight: bold;
+	background-image: url(../imgs/biaotou.jpg);
+}
+/*=============================div=============================*/
+.top {
+	width: 1004px;
+	margin: 0;
+	margin-top: 0;
+	height: 34px;
+}
+
+.top_1 {
+	width: 400px;
+	height: 34px;
+	float: left;
+	margin:0px;
+}
+
+.top_2 {
+	width: 500px;
+	height: 34px;
+	float: right;
+	margin:0px;
+}
+
+.banner {
+	width: 1004px;
+	height: 77px;
+	margin: auto;
+}
+
+.caidan {
+	width: 1004px;
+	margin: auto;
+	height: 43px;
+	background: url(../imgs/caidan.jpg);
+}
+
+.bannerGIS {
+	width: 1000px;
+	margin: auto;
+}
+
+.caidanTop {
+	width: 1004px;
+	height: 3px;
+	background: url(../imgs/yixianshu.jpg);
+}
+
+.caidanGIS {
+	width: 1000px;
+	margin: auto;
+	height: 20px;
+}
+
+.neirong {
+	width: 773px;
+	height: 700px;
+	background: #ffffff
+}
+
+.neirong_1 {
+	width: 204px;
+	height: 700px;
+	float: left;
+	background: url(bian.jpg)
+}
+
+.neirong_2 {
+	width: 800px;
+	height: 700px;
+	float: right;
+}
+
+.down {
+	width: 1004px;
+	margin: auto;
+	height: 42px;
+	background: url(caidan.jpg)
+}
+
+.menu {
+	width: 195px;
+	height: 520px
+}
+
+.menu_1_1 {
+	width: 195px;
+	height: 25px;
+	font-size: 14px;
+	padding-top: 12px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+
+.menu_1_2 {
+	width: 195px;
+	height: 25px;
+	padding-top: 12px;
+	padding-left: 30px;
+}
+
+.menu_1_3 {
+	width: 195px;
+	height: 25px;
+	padding-top: 7px;
+	padding-left: 40px;
+}
+
+.menu_1_4 {
+	width: 195px;
+	height: 25px;
+	padding-top: 7px;
+	padding-left: 50px;
+}
+
+.menu_1_5 {
+	width: 195px;
+	height: 25px;
+	padding-top: 7px;
+	padding-left: 60px;
+}
+
+.pic_jia {
+	width: 9px;
+	height: 9px;
+	border: 0px;
+}
+
+.subMenuClose {
+	display: none
+}
+
+.menu_t1 {
+	width: 195px;
+	height: 37px;
+	vertical-align: middle;
+	background: url(caidan_1.JPG);
+	font-size: 14px;
+	text-align: center;
+}
+
+.menu_t2 {
+	width: 195px;
+	height: 37px;
+	vertical-align: middle;
+	font-size: 12px;
+	text-align: center;
+}
+/*=============================闂傚倷绀侀幖顐﹀磹缁嬫５娲Χ婢跺浠遍梺璺ㄥ櫐閹凤拷==========================*/
+.heise {
+	font-size: 12px;
+	color: #000;
+}
+
+.heise_z {
+	font-size: 12px;
+	color: #000;
+	text-align: center;
+}
+
+.baise {
+	font-size: 12px;
+	color: #fff;
+}
+
+.daheizi {
+	font-size: 14px;
+	color: #000;
+}
+
+.biaotouzi {
+	font-size: 12px;
+	color: #0258D3;
+	font-weight: bold;
+	text-align: center;
+}
+
+/*================================table==========================*/
+.neirong_t {
+	height: 35px;
+	vertical-align: middle;
+}
+
+.neirong_t_d {
+	height: 55px;
+	vertical-align: middle;
+}
+
+.neirong_t1 {
+	height: 25px;
+	vertical-align: middle;
+	background: #FFF;
+}
+
+.neirong_t2 {
+	height: 25px;
+	vertical-align: middle;
+	background: #EEE;
+}
+
+.neirong_t1_z {
+	height: 25px;
+	vertical-align: middle;
+	background: #FFF;
+	text-align: center;
+}
+
+.neirong_t2_z {
+	height: 25px;
+	vertical-align: middle;
+	background: #EEE;
+	text-align: center;
+}
+
+.caidan_t {
+	width: 200;
+}
+
+.caidan_t1 {
+	width: 188;
+	height: 29;
+}
+
+.largDiv {
+	width: 100%;
+}
+
+.frame {
+	width: 1004;
+	background-color: #fff
+}
+
+.title {
+	width: 98%;
+	font-size: 18px;
+	padding-left: 30px;
+	font-weight: bold;
+}
+
+.operate {
+	
+}
+
+.search {
+	text-align: center;
+	height: 23px;
+	padding-top: 10px;
+}
+
+.edLine {
+	width: 110px;
+}
+
+.SelectQuery {
+	width: 110px;
+}
+
+.PageTitle {
+	width: 98%;
+}
+
+.Pager {
+	width: 648px;
+}
+
+.SearchTable {
+	width: 98%;
+	border: 0px;
+	background-color: #F3F3F3
+}
+
+td a {
+	height: 10px
+}
+
+.inputtable {
+	width: 700px
+}
+
+/*=============================button=============================*/
+*.button {
+	background-image: url(../imgs/anniu_ty_1.jpg);
+	background-repeat: repeat-x;
+	text-align: center;
+	height: 23px;
+	width: 44px;
+	vertical-align: middle;
+	padding: 3px 8px 0px 8px;
+	color: #333;
+}
+
+*.button4 {
+	background-image: url(../imgs/anniu_ty_1.jpg);
+	height: 23px;
+	width: 47px;
+	vertical-align: middle;
+	padding: 3px 8px 0px 8px;
+	color: #333;
+}
+
+/*=============================button=============================*/
+*.buttonCaiDan {
+	background-image: url(../imgs/caidan_1_1.JPG);
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 36px;
+	width: 195px;
+	vertical-align: middle;
+	padding: 0px 0px 0px 0px;
+}
+
+.mueubt {
+	background-image: url(../imgs/caidan_1_1.JPG);
+	background-repeat: repeat-x;
+	text-align: center;
+	height: 35px;
+}
+
+/*=============================button=============================*/
+*.button {
+	background-image: url(../imgs/anniu_ty_1.jpg);
+	background-repeat: repeat-x;
+	text-align: center;
+	height: 23px;
+	width: 44px;
+	vertical-align: middle;
+	padding: 3px 8px 0px 8px;
+	color: #333;
+}
+
+/*=============================button=============================*/
+*.buttonCaiDan {
+	background-image: url(../imgs/caidan_1_1.JPG);
+	background-repeat: repeat-x;
+	text-align: center;
+	height: 36px;
+	width: 177px;
+	vertical-align: middle;
+	padding: 3px 8px 0px 8px;
+	color: #333;
+}
+
+.right {
+	height: 100%;
+	width: 95%;
+	margin-left: 20px;
+	background-color: #FFFFFF;
+	vertical-align: top;
+}
+
+.tabs_header {
+	height: 27px;
+	border-bottom: 1px solid #F90;
+	display: block;
+	margin-top: 9px;
+	width: 720px;
+}
+
+.tabs_header ul.tabs li a,.tabs_header ul.tabs li a span {
+	background: url(../imgs/tab_bg.gif) no-repeat;
+	display: block;
+}
+
+.tabs_header ul.tabs {
+	z-index: 10;
+	left: 21px;
+}
+
+.tabs_header ul.tabs li {
+	float: left;
+	margin: 0 0 0 9px;
+	display: inline;
+}
+
+.tabs_header ul.tabs li a {
+	float: left;
+	padding: 0 0 0 15px;
+	height: 28px;
+	background-position: left 0;
+	color: #666;
+	text-decoration: none;
+}
+
+.tabs_header ul.tabs li a span {
+	padding: 9px 15px 7px 0;
+	background-position: right 0;
+	font-size: 12px;
+	line-height: 12px;
+	white-space: nowrap;
+}
+
+.tabs_header ul.tabs li a:hover {
+	background-position: left -56px;
+	color: #114477;
+	text-decoration: none;
+}
+
+.tabs_header ul.tabs li a:hover span {
+	background-position: right -56px;
+}
+
+.tabs_header ul.tabs li a span img {
+	vertical-align: middle;
+}
+
+.tabs_header ul.tabs li.active a {
+	background-position: left -28px;
+	color: #000;
+}
+
+.tabs_header ul.tabs li.active a span {
+	background-position: right -28px;
+}
+
+.tabs_header ul.tabs li.null {
+	margin: 0 8px 0 0;
+	padding: 0 0 0 25px;
+	height: 25px;
+	background: url(../imgs/add_button.gif) no-repeat 0 0;
+	line-height: 24px;
+}
+
+.tabs_header ul.tabs li.null a {
+	padding: 0 10px 0 0;
+	height: 25px;
+	background: url(../imgs/add_button.gif) no-repeat right top;
+	color: #fff;
+	font-size: 12px;
+}
+
+/*=============================div=============================*/
+.caidanGIS {
+	width: 1000px;
+	margin: auto;
+	height: 20px;
+}
+
+.neirong {
+	width: 773px;
+	height: 700px;
+	background: #ffffff
+}
+
+.neirong_1 {
+	width: 204px;
+	height: 700px;
+	float: left;
+	background: url(../imgs/bian.jpg)
+}
+
+.neirong_2 {
+	width: 800px;
+	height: 700px;
+	float: right;
+}
+
+.down {
+	width: 1004px;
+	margin: auto;
+	height: 42px;
+	background: url(../imgs/caidan.jpg)
+}
+
+.menu_t1 {
+	width: 195px;
+	height: 37px;
+	vertical-align: middle;
+	background: url(../imgs/caidan_1.JPG);
+	font-size: 14px;
+	text-align: center;
+}
+
+.menu_t2 {
+	width: 195px;
+	height: 37px;
+	vertical-align: middle;
+	font-size: 12px;
+	text-align: center;
+}
+
+/*=============================婵犵绱曢崑鎴﹀磹濡ゅ懎鏋侀悹鍥ф▕閻掍粙鏌熷▓鍨灓缁炬儳銈搁弻锝夊棘閸噮鏆㈠銈呯箻娴滃爼骞冨Δ锟芥婵炲棗绉冲▽顏嗙磽閸屾氨鈻岄柟鍑ゆ嫹===========================*/
+.largDiv {
+	width: 100%;
+}
+
+.frame {
+	width: 1004;
+	background-color: #fff
+}
+
+.list {
+	width: 100%;
+}
+
+.list tr {
+	height: 30px
+}
+
+.list th {
+	font-size: 12px;
+	color: #0258D3;
+	font-weight: bold;
+	text-align: center;
+}
+
+.operate {
+	
+}
+
+.search {
+	text-align: center;
+	height: 23px;
+	padding-top: 10px;
+}
+
+.edLine {
+	width: 110px;
+}
+
+.label {
+	width: 100px;
+}
+
+.input {
+	height: 35px;
+}
+
+.input_3 {
+	width: 500px;
+	height: 115px
+}
+
+.text {
+	width: 170px;
+}
+
+.SelectInput {
+	width: 170px;
+}
+
+.text_3 {
+	width: 520px;
+	height: 100px;
+}
+
+.input input {
+	height: 21px;
+}
+
+.input label {
+	width: 100%;
+}
+
+.space {
+	height: 1px
+}
+
+.fenge {
+	width: 100%;
+	height: 10px;
+}
+
+.viewtable {
+	
+}
+
+/*=============================button=============================*/
+*.button {
+	background-image: url(../imgs/anniu_ty_1.jpg);
+	background-repeat: repeat-x;
+	text-align: center;
+	height: 23px;
+	width: 44px;
+	vertical-align: middle;
+	padding: 3px 8px 0px 8px;
+	color: #333;
+}
+
+*.button4 {
+	background-image: url(../imgs/anniu_ty_1.jpg);
+	height: 23px;
+	width: 47px;
+	vertical-align: middle;
+	padding: 3px 8px 0px 8px;
+	color: #333;
+}
+
+/*=============================button=============================*/
+*.buttonCaiDan {
+	background-image: url(../imgs/caidan_1_1.JPG);
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 36px;
+	width: 195px;
+	vertical-align: middle;
+	padding: 0px 0px 0px 0px;
+}
+
+.mueubt {
+	background-image: url(../imgs/caidan_1_1.JPG);
+	background-repeat: repeat-x;
+	text-align: center;
+	height: 35px;
+}
+
+/*=============================button=============================*/
+*.button {
+	background-image: url(../imgs/anniu_ty_1.jpg);
+	background-repeat: repeat-x;
+	text-align: center;
+	height: 23px;
+	width: 44px;
+	vertical-align: middle;
+	padding: 3px 8px 0px 8px;
+	color: #333;
+}
+
+/*=============================button=============================*/
+*.buttonCaiDan {
+	background-image: url('<c:url value="/res/imgs/caidan_1_1.jpg" />');
+	background-repeat: repeat-x;
+	text-align: center;
+	height: 36px;
+	width: 177px;
+	vertical-align: middle;
+	padding: 3px 8px 0px 8px;
+	color: #333;
+}
+
+.right {
+	height: 100%;
+	width: 95%;
+	margin-left: 20px;
+	background-color: #FFFFFF;
+	vertical-align: top;
+}
+
+/*======================menu==========================================*/
+.pic_jia {
+	width: 9px;
+	height: 9px;
+	border: 0px;
+}
+
+.subMenuClose {
+	display: none
+}
+
+/*=============================闂備胶鍎甸崜婵堟暜閹烘绠犳慨妤嬫嫹缁犲搫鈹戦崒婊庣劸缂佺姵濞婇弻鏇熷緞濞戙垺顎嶉梺璇插瘨閸ｏ綁骞冨Δ锟芥闁惧浚鍋勯锟�==========================*/
+a {
+	blr: expression(this.onFocus = this.blur () ); /*闂傚倷娴囧Λ鍕偋閸℃侗鏁嬮柨鐔虹イE*/
+	outline: none; /*闂備胶顭堢换鎴濓耿閸︻厼鍨濋柨鐕傛嫹
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: #FC0;
+}
+a:active {
+	text-decoration: none;
+}
+/*=============================div=============================*/ .
+	bannerGIS { width : 1000px;
+	margin: auto;
+}
+
+.caidanGIS {
+	width: 1000px;
+	margin: auto;
+	height: 20px;
+}
+
+.neirong {
+	width: 773px;
+	height: 700px;
+	background: #ffffff
+}
+
+.neirong_1 {
+	width: 204px;
+	height: 700px;
+	float: left;
+	background: url(../imgs/bian.jpg)
+}
+
+.neirong_2 {
+	width: 800px;
+	height: 700px;
+	float: right;
+}
+
+.down {
+	width: 1004px;
+	margin: auto;
+	height: 42px;
+	background: url(../imgs/caidan.jpg)
+}
+
+.menu_t1 {
+	width: 195px;
+	height: 37px;
+	vertical-align: middle;
+	background: url(../imgs/caidan_1.JPG);
+	font-size: 14px;
+	text-align: center;
+}
+
+.menu_t2 {
+	width: 195px;
+	height: 37px;
+	vertical-align: middle;
+	font-size: 12px;
+	text-align: center;
+}
+
+/*=============================button=============================*/
+*.button {
+	background-image: url(../imgs/anniu_ty_1.jpg);
+	background-repeat: repeat-x;
+	text-align: center;
+	height: 23px;
+	width: 44px;
+	vertical-align: middle;
+	padding: 3px 8px 0px 8px;
+	color: #333;
+}
+
+.button4 {
+	background-image: url(../imgs/anniu_ty_1.jpg);
+	height: 23px;
+	width: 47px;
+	vertical-align: middle;
+	padding: 3px 8px 0px 8px;
+	color: #333;
+}
+
+/*=============================button=============================*/
+.buttonCaiDan {
+	background-image: url(../imgs/caidan_1_1.JPG);
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 36px;
+	width: 195px;
+	vertical-align: middle;
+	padding: 0px 0px 0px 0px;
+}
+
+.mueubt {
+	background-image: url(../imgs/caidan_1_1.JPG);
+	background-repeat: repeat-x;
+	text-align: center;
+	height: 35px;
+}
+
+/*=============================tableList=============================*/
+.tableList {
+	font-size: 12px;
+	color: #000;
+	width: 98%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-top: 0px;
+	border-collapse: collapse;
+}
+
+.tableList th {
+	font-weight: bold;
+	color: #333;
+	text-align: left;
+	text-indent: 20px;
+	width: 100px;
+	height: 35px;
+}
+
+.tableList td {
+	border: 1px solid #CCC;
+	padding: 1px;
+	text-indent: 6px;
+}
+
+/*=============================tableList=============================*/
+.tableView {
+	font-size: 12px;
+	color: #000;
+	width: 100%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-top: 0px;
+	border-collapse: collapse;
+}
+
+.tableView th {
+	font-weight: bold;
+	border: 1px solid #CCC;
+	color: #333;
+	text-align: right;
+	text-indent: 20px;
+	width: 15%;
+	height: 35px;
+}
+
+.tableView td {
+	border: 1px solid #CCC;
+	padding: 1px;
+	width: 30%;
+	text-indent: 6px;
+}
+
+.tableViewMore {
+	font-size: 12px;
+	color: #000;
+	width: 100%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-top: 0px;
+	border-collapse: collapse;
+}
+
+.tableViewMore th {
+	font-weight: bold;
+	border: 1px solid #CCC;
+	color: #333;
+	text-align: right;
+	text-indent: 20px;
+	width: 15%;
+	height: 35px;
+}
+
+.tableViewMore td {
+	border: 1px solid #CCC;
+	padding: 1px;
+	width: 30%;
+	text-indent: 6px;
+}
+
+
+/*=============================tableList=============================*/
+.tableFront {
+	font-size: 12px;
+	color: #000;
+	width: 98%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-top: 0px;
+	border-collapse: collapse;
+}
+
+.tableFront th {
+	font-weight: bold;
+	border: 1px solid #CCC;
+	color: #333;
+	text-align: right;
+	text-indent: 20px;
+	width: 14%;
+	height: 35px;
+}
+
+.tableFront td {
+	border: 1px solid #CCC;
+	padding: 1px;
+	width: 30%;
+	text-indent: 6px;
+}
+
+
+/*=============================tableList=============================*/
+.tableL {
+	font-size: 12px;
+	color: #000;
+	width: 490px;;
+	margin-left: 30px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-top: 0px;
+	border-collapse: collapse;
+}
+
+.tableL th {
+	font-weight: bold;
+	color: #333;
+	text-align: left;
+	text-indent: 20px;
+	width: 100px;
+	height: 35px;
+	border: 1px solid #CCC;
+	padding: 1px;
+}
+
+.tableL td {
+	border: 1px solid #CCC;
+	padding: 1px;
+	text-indent: 6px;
+}
+/*=============================button=============================*/
+.button {
+	background-image: url(../imgs/anniu_ty_1.jpg);
+	background-repeat: repeat-x;
+	text-align: center;
+	height: 23px;
+	width: 44px;
+	vertical-align: middle;
+	padding: 3px 8px 0px 8px;
+	color: #333;
+}
+
+/*=============================button=============================*/
+*.buttonCaiDan {
+	background-image: url('<c:url value="/res/imgs/caidan_1_1.jpg" />');
+	background-repeat: repeat-x;
+	text-align: center;
+	height: 36px;
+	width: 177px;
+	vertical-align: middle;
+	padding: 3px 8px 0px 8px;
+	color: #333;
+}
+
+/*=============================tableList=============================*/
+.tableList {
+	font-size: 12px;
+	color: #000;
+	width: 100%;
+	margin-left: 30px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-top: 0px;
+	border-collapse: collapse;
+}
+
+.tableList th {
+	font-weight: bold;
+	color: #333;
+	text-align: right;
+	text-indent: 20px;
+	width: 100px;
+	height: 24px;
+	border: 1px solid #CCC;
+	padding: 1px;
+	text-indent: 6px;
+}
+
+.tableList td {
+	border: 1px solid #CCC;
+	padding: 1px;
+	text-indent: 6px;
+}
+
+.right {
+	height: 100%;
+	width: 95%;
+	margin-left: 20px;
+	background-color: #FFFFFF;
+	vertical-align: top;
+}
+
+/*=============================tableList=============================*/
+.SexInput {
+	width: 50px;
+}
+
+.bgdiv {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	background-color: #000000;
+	filter: alpha(opacity = 60); /* IE */
+	opacity: 0.6; /* FireFox */
+	z-index: 100;
+}
+
+.adduserdiv {
+	background-Color: #FFFFFF;
+	position: absolute;
+	text-align: center;
+	padding: 0px 2px 0px 0px;
+	line-height: 22px;
+	z-index: 102;
+}
+
+body,td,th {
+	font-size: 12px;
+	color: #000;
+}
+
+body {
+	background-color: #CAE0FF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.tableNei {
+	font-size: 12px;
+	color: #000;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+
+.tableNei tr {
+	height: 25px;
+}
+
+.tableNei td {
+	padding: 1px;
+	text-indent: 6px;
+}
+
+
+
+.caidan li {
+	width: 80px;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	text-align: center;
+	color: #FFF;
+	float: left;
+	list-style-type: none;
+	padding-top: 10px;
+	height: 33px !important;
+	height: 43px;
+	background: url(caidan_2.JPG);
+}
+
+.caidan .xuanzhong {
+	width: 80px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	text-align: center;
+	color: #FFF;
+	float: left;
+	list-style-image: none;
+    list-style-type: none;
+
+	padding-top: 10px;
+	background: url(caidan_2.JPG);
+}
+
+.caidan ul li a {
+	color: #FFF;
+}
+
+.caidan ul li a:visited {
+	color: #FFF;
+}
+
+.caidan ul li a:hover {
+	text-decoration: none;
+	color: #FFCC00;
+}
+
+.caidan ul li a:active {
+	color: #FFF;
+}
+
+.bodyOver
+{
+	background-color: #FFF;
+}
+
+.listFront {
+	width: 671px;
+}
+
+.list tr {
+	height: 30px
+}
+
+.list th {
+	font-size: 12px;
+	color: #0258D3;
+	font-weight: bold;
+	text-align: center;
+}
+
+.listT {
+	width: 100%;
+}
+
+.listT tr {
+	height: 30px
+}
+
+.listT th {
+	font-size: 12px;
+	color: #0258D3;
+	font-weight: bold;
+}
+.focusField {
+	border: solid 1px #73A6FF;
+	background: #EFF5FF;
+	color: #000;
+}
+
+.idleField {
+	background: #FFFFFF;
+	color: #6F6F6F;
+	border: solid 1px #DFDFDF;
+}
+.BiXuTianXie{ color:Red;}
